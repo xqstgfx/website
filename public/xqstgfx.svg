@@ -1,0 +1,10 @@
+<svg viewBox="0 0 512 256" shape-rendering="crispEdges" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M400 208h16v16h-16v-16Z" fill="hsl(281, 100%, 50%)"/>
+  <path d="M304 128h16v16h16v16h16v-16h16v-16h16v16h-16v16h-16v16h16v16h16v32h-16v-32h-16v-16h-16v16h-16v32h-16v-32h16v-16h16v-16h-16v-16h-16v-16Z" fill="hsl(216, 100%, 50%)"/>
+  <path d="M256 128h16v16h16v16h-16v-16h-48v16h32v16h-32v48h-16v-48h16v-16h-16v-16h16v-16h32Z" fill="hsl(39, 100%, 50%"/>
+  <path d="M112 144 h16v-16h64v16h-64v64h48v-32h-16v-16h32v48h-16v16h-48v-16h-16v-64Z" fill="hsl(323, 100%, 50%)"/>
+  <path d="M352 32h64v16h-32v16h16v16h-16v16h16v16h-16v-16h-16v-16h16v-16h-16v-16h-16v-16Z" fill="hsl(39, 100%, 50%"/>
+  <path d="M272 48h16v-16h48v16h-48v16h32v16h16v16h-16v16h-48v-16h48v-16h-32v-16h-16v-16Z" fill="hsl(281, 100%, 50%)"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M96 32h16v16H96v-16Zm32 32h-16v-16h16v16Zm16 0h-16v16h-16v16H96v16h16v-16h16v-16h16v16h16v16h16v-16h-16v-16h-16v-16Zm16-16v16h-16v-16h16Zm0 0v-16h16v16h-16Z" fill="hsl(155, 100%, 43%)"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M208 32h32v16h-32v-16Zm0 64h-16v-48h16v48Zm16 0v16h-16v-16h16Zm16-16h-16v16h16v16h16v-16h-16v-16Zm0 0h16v-32h-16v32Z" fill="hsl(216, 100%, 50%)"/>
+</svg>
