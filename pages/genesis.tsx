@@ -47,6 +47,7 @@ const Genesis = () => {
         console.log("mint tx", tx);
 
         onProgress("Finalizing transaction…");
+        // @ts-ignore
         const receipt = await promiseNotify(tx.wait())
           .after(1000 * 15, () =>
             onProgress(

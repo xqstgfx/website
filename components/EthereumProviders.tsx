@@ -10,7 +10,7 @@ export const targetChainId = parseInt(process.env.CHAIN_ID || "0") || 1;
 export const { chains, provider, webSocketProvider } = configureChains(
   [chain.mainnet],
   [
-    alchemyProvider({ alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_API_KEY }),
+    alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_API_KEY }),
     publicProvider(),
   ]
 );
@@ -27,6 +27,7 @@ export const wagmiClient = createClient({
   webSocketProvider,
 });
 
+// @ts-ignore
 export const EthereumProviders: React.FC = ({ children }) => (
   <WagmiConfig client={wagmiClient}>
     <RainbowKitProvider chains={chains}>{children}</RainbowKitProvider>
