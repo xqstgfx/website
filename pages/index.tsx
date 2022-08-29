@@ -16,13 +16,11 @@ const Home: NextPage = () => {
         Exquisite Graphics is a state-of-the-art on-chain pixel art rendering
         engine accessible to everyone.
         <br />
-        Exquisite Graphics is a public good.
+        Exquisite Graphics is a public good. It proliferates and funds graphics
+        projects.
         <br />
-        Exquisite Graphics proliferates and funds graphics projects
-        <br />
-        story or something
-        <br />
-        something about the `.xqst` file format
+        Exquisite Graphics is built around the .xqst file format which is an
+        open standard for anyone to use however they would like.
       </p>
 
       <h3 className="text-xl font-bold">Built with Exquisite Graphics</h3>

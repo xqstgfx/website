@@ -20,10 +20,10 @@ const Header = () => {
 
       <div className="flex gap-4 justify-end items-center">
         {/* <a className="border-2 rounded-lg p-2" href="/docs"> */}
-        <a href="https://docs.exquisite.graphics/">DOCS</a>
+        {/* <a href="https://docs.exquisite.graphics/">DOCS</a> */}
         <Link href="/genesis">MINT</Link>
         {/* <a className="border-2 rounded-lg p-2" href="/about"> */}
-        <Link href="/about">ABOUT</Link>
+        {/* <Link href="/about">ABOUT</Link> */}
         {router.pathname === "/genesis" && <ConnectButton />}
       </div>
     </div>

@@ -14,15 +14,14 @@ import { toast } from "react-toastify";
 
 const Genesis = () => {
   const { connector } = useAccount();
-  const {
-    data: numMinted,
-    error,
-    isLoading,
-  } = useContractRead({
+  const { data, error, isLoading } = useContractRead({
     addressOrName: GENESIS_ADDRESS,
     contractInterface: GENESIS_ABI,
     functionName: "numMinted",
   });
+
+  const numMinted = !isLoading && data ? `${data.toNumber()}` : "...";
+  console.log(numMinted);
 
   const [mintResult, mint] = usePromiseFn(
     async (onProgress: (message: string) => void) => {
@@ -121,7 +120,7 @@ const Genesis = () => {
         >
           Mint Genesis Token
         </button>
-        <p id="test">{isLoading ? "---" : "hi"}/1111 Minted</p>
+        <p id="test">{numMinted}/1111 Minted</p>
       </div>
     </div>
   );
